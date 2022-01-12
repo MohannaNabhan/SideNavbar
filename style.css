@@ -1,0 +1,86 @@
+body{
+    background: rgb(12,12,12);
+    background: radial-gradient(circle, rgba(12,12,12,1) 50%, rgba(4,4,4,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-back{
+    -webkit-box-shadow: inset 0px -7px 23px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: inset 0px -7px 23px 0px rgba(0,0,0,0.08);
+    box-shadow: inset 0px -7px 23px 0px rgba(0,0,0,0.08);
+    -webkit-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.52);
+    box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.52);
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: rgb(15,13,15);
+}
+
+.navbar-button{
+    margin-bottom: 12px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.navbar-button:hover{
+    background-color: (20,17,20);rgb
+}
+.navbar-button .navbar-icon{
+    position: absolute;
+    left: 7px;
+    border-radius: 4px;
+    width: 46px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(20,17,20);
+    font-size: 25px;
+    color: rgb(162, 162, 162);
+}
+.navbar-button:hover .navbar-icon{
+    color: white;
+}
+.navbar-button h1{
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    font-size: 17px;
+    color: rgb(162, 162, 162);
+}
+.navbar-button:hover h1{
+    color: white;
+}
+
+
+
+.button-nav-back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+#button-nav{
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: rgb(162, 162, 162);
+    font-size: 25px;
+}
+#button-nav:hover{
+    background-color: rgb(20,17,20);
+}
+
+.open-nav{
+    width: 220px !important;
+}
